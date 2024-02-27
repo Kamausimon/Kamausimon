@@ -1,5 +1,14 @@
 ### Hi there 👋
 
+   I am KamauSimon a fullstack web developer.
+
+   I am looking to collaborate with developers on new and interesting projects.
+
+   You can ask me about my projects too.
+
+   How to reach me: kamausimon217@gmail.com is the email to use.
+
+   Let us connect on Twitter: @kamau_codes and on LinkedIn:www.linkedin.com/in/simon-kamau-codes
 <!--
 **Kamausimon/Kamausimon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
