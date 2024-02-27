@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-   I am KamauSimon a fullstack web developer.
+   I am Kamau Simon a fullstack web developer.
 
    I am looking to collaborate with developers on new and interesting projects.
 
