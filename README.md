@@ -8,7 +8,7 @@
 
    How to reach me: kamausimon217@gmail.com is the email to use.
 
-   Let us connect on Twitter: @kamau_codes and on LinkedIn:www.linkedin.com/in/simon-kamau-codes
+   Let us connect on Twitter: @kamau_codes and on LinkedIn: www.linkedin.com/in/simon-kamau-codes
 <!--
 **Kamausimon/Kamausimon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
