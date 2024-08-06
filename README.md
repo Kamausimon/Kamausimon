@@ -1,23 +1,34 @@
-### Hi there 👋
+# Hi there, I'm Kamau Simon! 👋
 
-   I am Kamau Simon a fullstack web developer.
+---
 
-   I am looking to collaborate with developers on new and interesting projects.
+![Full Stack Developer](https://img.shields.io/badge/-Full%20Stack%20Developer-4A90E2?style=flat-square&logo=codeigniter&logoColor=white)
+![Web Development](https://img.shields.io/badge/-Web%20Development-28A745?style=flat-square&logo=react&logoColor=white)
 
-   You can ask me about my projects too.
+Welcome to my GitHub profile! I'm a passionate **Fullstack Web Developer** with a strong interest in building dynamic, user-friendly web applications.
 
-   Let us connect on Twitter: @kamau_codes and on LinkedIn: www.linkedin.com/in/simon-kamau-codes
-<!--
-**Kamausimon/Kamausimon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🚀 About Me
 
-Here are some ideas to get you started:
+- 🌐 **Web Developer**: Skilled in both front-end and back-end technologies.
+- 🤝 **Collaborator**: Eager to collaborate on new and exciting projects.
+- 💬 **Open to Questions**: Feel free to ask me about my projects or anything related to web development.
+- 📈 **Continuous Learner**: Always looking for opportunities to improve and learn new skills.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠️ Technologies & Tools
+
+- **Front-end**: HTML, CSS, JavaScript, React, 
+- **Back-end**: Node.js, Express, PHP, Laravel
+- **Databases**: MySQL, MongoDB
+- **Version Control**: Git, GitHub
+- **Others**: RESTful APIs, Docker
+
+### 📫 Connect with Me
+
+- **Twitter**: [@kamau_codes](https://twitter.com/kamau_codes)
+- **LinkedIn**: [Simon Kamau](https://www.linkedin.com/in/simon-kamau-codes)
+
+---
+
+Feel free to explore my repositories and get in touch if you have any exciting projects or collaboration ideas. Let's build something great together!
+
+
