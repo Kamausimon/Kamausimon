@@ -17,7 +17,7 @@ Welcome to my GitHub profile! I'm a passionate **Fullstack Web Developer** with 
 ### 🛠️ Technologies & Tools
 
 - **Front-end**: HTML, CSS, JavaScript, React, 
-- **Back-end**: Node.js, Express, PHP, Laravel
+- **Back-end**: Node.js, Express, PHP, Laravel, Rust
 - **Databases**: MySQL, MongoDB
 - **Version Control**: Git, GitHub
 - **Others**: RESTful APIs, Docker
