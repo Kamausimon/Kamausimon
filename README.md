@@ -7,7 +7,7 @@
 ![Backend Developer](https://img.shields.io/badge/-backend%20developer?style=flat-square&logo=rust&logoColor=7D2957&logoSize=auto&label=backend%20developer&labelColor=E81517&color=4B297D
 )
 
-Welcome to my GitHub profile! I'm a passionate **Fullstack Web Developer** with a strong interest in building dynamic, user-friendly web applications.
+Welcome to my GitHub profile! I'm a passionate **Backend Web Developer** with a strong interest in building dynamic, user-friendly web applications.
 
 ### 🚀 About Me
 
