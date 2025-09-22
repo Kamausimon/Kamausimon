@@ -4,6 +4,8 @@
 
 ![Full Stack Developer](https://img.shields.io/badge/-Full%20Stack%20Developer-4A90E2?style=flat-square&logo=codeigniter&logoColor=white)
 ![Web Development](https://img.shields.io/badge/-Web%20Development-28A745?style=flat-square&logo=react&logoColor=white)
+![Backend Developer](https://img.shields.io/badge/-backend%20developer?style=flat-square&logo=rust&logoColor=7D2957&logoSize=auto&label=backend%20developer&labelColor=E81517&color=4B297D
+)
 
 Welcome to my GitHub profile! I'm a passionate **Fullstack Web Developer** with a strong interest in building dynamic, user-friendly web applications.
 
