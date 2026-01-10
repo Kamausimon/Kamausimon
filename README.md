@@ -23,7 +23,7 @@ Production-ready ticketing system with payment processing, 2FA, and real-time in
 
 ---
 
-### [🦀 Mtaalink services platform](https://github.com/Kamausimon/mtaalink) | Rust
+### [🦀 Mtaalink services platform](https://github.com/Kamausimon/mtaalink) | Rust, PostgreSQL
  Production ready service provider system with real time communication, ranking and review system
 - **Advanced security**: JWT auth, rate limiting, encryption
 -  **Deployed on Railway** with Docker + CI/CD automation
