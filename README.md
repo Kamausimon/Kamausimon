@@ -7,6 +7,9 @@ I build production-ready backend systems with clean architecture, comprehensive 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/simon-kamau-codes/) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Kamau_codes) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@kamau_codes)
 
 ---
+---
+https://wakatime.com/badge/user/018c5a56-9679-4410-abca-5b63505115e4.svg: [![wakatime](https://wakatime.com/badge/user/018c5a56-9679-4410-abca-5b63505115e4.svg)](https://wakatime.com/@018c5a56-9679-4410-abca-5b63505115e4)
+---
 
 ## 🚀 Featured Projects
 
