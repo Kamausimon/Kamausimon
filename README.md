@@ -8,7 +8,7 @@ I build production-ready backend systems with clean architecture, comprehensive 
 
 ---
 ---
-https://wakatime.com/badge/user/018c5a56-9679-4410-abca-5b63505115e4.svg: [![wakatime](https://wakatime.com/badge/user/018c5a56-9679-4410-abca-5b63505115e4.svg)](https://wakatime.com/@018c5a56-9679-4410-abca-5b63505115e4)
+[![wakatime](https://wakatime.com/badge/user/018c5a56-9679-4410-abca-5b63505115e4.svg)](https://wakatime.com/@018c5a56-9679-4410-abca-5b63505115e4)
 ---
 
 ## 🚀 Featured Projects
