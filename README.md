@@ -23,25 +23,16 @@ Production-ready ticketing system with payment processing, 2FA, and real-time in
 
 ---
 
-### [🦀 Your Rust Project Name] | Rust
-[Brief description of what your Rust project does - what problem it solves]
-- Key feature 1 with metric
-- Key feature 2 with technical detail
-- Key feature 3 with achievement
-- Tech: Rust, [other technologies you used]
+### [🦀 Mtaalink services platform](https://github.com/Kamausimon/mtaalink) | Rust
+ Production ready service provider system with real time communication, ranking and review system
+- **Advanced security**: JWT auth, rate limiting, encryption
+-  **Deployed on Railway** with Docker + CI/CD automation
+-  **1000+ concurrent users** with <100ms response time
+- Tech: Rust, PostgreSQL 15, Docker
 
 🔗 [Live Demo](#) | 📖 [GitHub](your-rust-repo-link)
 
 ---
-
-### [🌐 Your Node.js Fullstack App] | Node.js, React/Vue
-[Brief description of your fullstack project]
-- Full-stack feature description
-- Frontend/backend integration
-- Deployment and scale
-- Tech: Node.js, Express, React/Vue, MongoDB/PostgreSQL
-
-🔗 [Live Demo](#) | 📖 [GitHub](your-nodejs-repo-link)
 
 ---
 
@@ -192,10 +183,10 @@ I'm currently **open to opportunities** and would love to chat about:
 - Or just connect and talk tech!
 
 **Reach out:**
-- 📧 Email: [your.email@example.com](mailto:your.email@example.com)
+- 📧 Email: [your.email@example.com](Kamausimon217@gmail.com)
 - 💼 LinkedIn: [linkedin.com/in/simon-kamau-codes](https://linkedin.com/in/simon-kamau-codes/)
 - 🐦 X/Twitter: [@Kamau_codes](https://x.com/Kamau_codes)
-- 🌐 Portfolio: [yourportfolio.dev](#) *(coming soon)*
+- 🌐 Portfolio: [yourportfolio.dev](https://kamausimon.vercel.app/) 
 
 ---
 
