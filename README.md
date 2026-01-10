@@ -183,10 +183,10 @@ I'm currently **open to opportunities** and would love to chat about:
 - Or just connect and talk tech!
 
 **Reach out:**
-- 📧 Email: [your.email@example.com](Kamausimon217@gmail.com)
+- 📧 Email: [Kamausimon217@gmail.com](Kamausimon217@gmail.com)
 - 💼 LinkedIn: [linkedin.com/in/simon-kamau-codes](https://linkedin.com/in/simon-kamau-codes/)
 - 🐦 X/Twitter: [@Kamau_codes](https://x.com/Kamau_codes)
-- 🌐 Portfolio: [yourportfolio.dev](https://kamausimon.vercel.app/) 
+- 🌐 Portfolio: [https://kamausimon.vercel.app/](https://kamausimon.vercel.app/) 
 
 ---
 
