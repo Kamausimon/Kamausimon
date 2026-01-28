@@ -22,7 +22,7 @@ Production-ready ticketing system with payment processing, 2FA, and real-time in
 - **Deployed on Railway** with Docker + CI/CD automation
 - Tech: Go 1.22, PostgreSQL 15, Redis 7, Docker, GORM, JWT
 
-🔗 [Live Demo](#) | 📖 [Documentation](https://github.com/kamausimon/ticketing_system)
+🔗 [Live Demo](https://ticketing-system-steel-zeta.vercel.app/) | 📖 [Documentation](https://documenter.getpostman.com/view/28274964/2sBXVhCqZ2)
 
 ---
 
@@ -33,7 +33,7 @@ Production-ready ticketing system with payment processing, 2FA, and real-time in
 -  **1000+ concurrent users** with <100ms response time
 - Tech: Rust, PostgreSQL 15, Docker
 
-🔗 [Live Demo](#) | 📖 [GitHub](your-rust-repo-link)
+🔗 [Live Demo](#) | 📖 [GitHub](https://github.com/Kamausimon/mtaalink)
 
 ---
 
