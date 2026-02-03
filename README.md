@@ -123,7 +123,7 @@ const kamau = {
 
 <div align="center">
 
- [![Kamausimon's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kamausimon)](https://github.com/Kamausimon/github-readme-stats)
+ [![Kamausimon's GitHub stats](https://github-readme-stats-eight-theta.vercel.app/api?username=Kamausimon&show_icons=true&theme=material-palenight&include_all_commits=true&count_private=true)
 
 ![](https://nirzak-streak-stats.vercel.app/?user=kamausimon&theme=dark&hide_border=false)
 
