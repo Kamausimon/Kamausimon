@@ -55,6 +55,7 @@ Multi-tenant SaaS inventory platform with full tenant isolation and role-based a
 
 `Node.js` `MongoDB` `Redis` `Docker` `GitHub Actions` `JWT`
 
+📖 [GitHub](https://github.com/Kamausimon/MTIS)
 ---
 
 ## 🛠️ Tech Stack
