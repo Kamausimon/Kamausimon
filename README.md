@@ -27,7 +27,7 @@ Production microservices platform deployed on AWS EC2 with real-time inventory a
 
 `Go 1.22` `PostgreSQL 15` `Redis 7` `Docker` `AWS EC2` `Nginx` `Prometheus` `Grafana` `JWT`
 
-🔗 [Live Demo](https://ticketing-system-steel-zeta.vercel.app/) | 📖 [API Docs](https://documenter.getpostman.com/view/28274964/2sBXVhCqZ2)
+🔗 [Live Demo](https://ticketing-system-steel-zeta.vercel.app/) | 📖 [API Docs](https://documenter.getpostman.com/view/28274964/2sBXVhCqZ2)   [Repository](https://github.com/Kamausimon/ticketing_system)
 
 ---
 
