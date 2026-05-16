@@ -16,46 +16,64 @@ I build cloud-native backend systems that handle real money and real users at sc
 
 ## 🚀 Featured Projects
 
-### [🎫 Event Ticketing Platform](https://github.com/kamausimon/ticketing_system) — Go · PostgreSQL · Redis
-Production microservices platform deployed on AWS EC2 with real-time inventory and payment processing
+### [🎫 Event Ticketing Platform](https://github.com/kamausimon/ticketing_system) — Go · PostgreSQL · Redis · Kafka · AWS
 
-- **1,000+ concurrent users** · 99.9% uptime · sub-100ms response time
-- Latency reduced **450ms → 120ms** via query optimization and connection pooling
-- JWT + TOTP 2FA authentication · IntaSend payments · 5-tier rate limiting
-- Prometheus + Grafana monitoring stack tracking 20+ KPIs with real-time alerting
-- **60+ test cases** · 85% coverage using TDD methodology
+Production-grade event ticketing platform built and **deliberately rebuilt three times** to demonstrate architectural progression — from a monolith to event-driven microservices to a fully cloud-native AWS deployment. Each version is a complete, runnable application implementing the same domain: authentication, payments, PDF ticket generation, real-time inventory, refund workflows, analytics, and email delivery.
 
-`Go 1.22` `PostgreSQL 15` `Redis 7` `Docker` `AWS EC2` `Nginx` `Prometheus` `Grafana` `JWT`
+| Version | Architecture | Key Technologies |
+|---------|-------------|-----------------|
+| **v1** | Monolithic REST API | Go, PostgreSQL, Redis, S3 |
+| **v2** | Event-driven microservices | Go, Apache Kafka, PostgreSQL, Redis, S3 |
+| **v3** | Cloud-native on AWS | Go, SNS/SQS, Aurora PostgreSQL, ElastiCache, S3, Terraform |
 
-🔗 [Live Demo](https://ticketing-system-steel-zeta.vercel.app/) | 📖 [API Docs](https://documenter.getpostman.com/view/28274964/2sBXVhCqZ2)  |  [Repository](https://github.com/Kamausimon/ticketing_system)
+- **1,000+ concurrent users** · 99.9% uptime · sub-200ms response times validated under K6 load testing
+- Latency reduced **450ms → 120ms** via query optimisation and connection pooling
+- JWT + TOTP 2FA · Stripe, IntaSend & M-Pesa payments · 5-tier rate limiting
+- **11 independent worker binaries** in v2/v3 (payment, ticket, email, refund, waitlist, analytics, etc.) communicating via Kafka topics and the **transactional outbox pattern** — guaranteeing zero event loss under failure
+- v3 infrastructure fully provisioned with **Terraform**: SNS, SQS (14 queues + DLQs), Aurora, ElastiCache
+- Prometheus + Grafana monitoring tracking 20+ KPIs with real-time alerting
+- AI-assisted admin support ticket classification · promotional codes · organiser payout management
+- **60+ test cases** · 85% coverage · TDD methodology
+
+`Go 1.22` `PostgreSQL` `Redis` `Apache Kafka` `Amazon SNS/SQS` `Aurora PostgreSQL` `ElastiCache` `Docker` `Terraform` `AWS EC2` `AWS S3` `Nginx` `Prometheus` `Grafana` `Stripe` `IntaSend` `JWT` `TOTP`
+
+🔗 [Live Demo](https://ticketing-system-steel-zeta.vercel.app/) | 📖 [API Docs](https://documenter.getpostman.com/view/28274964/2sBXVhCqZ2) | [Repository](https://github.com/Kamausimon/ticketing_system)
 
 ---
 
-### [🦀 Mtaalink — Service Provider Marketplace](https://github.com/Kamausimon/mtaalink) — Rust · PostgreSQL
-High-performance marketplace connecting users with 10,000+ local service providers
+### [🦀 MtaaLink — Service Provider Marketplace](https://github.com/Kamausimon/mtaalink) — Rust · Axum · PostgreSQL · AWS
 
-- **<300ms p95 latency** · 20K+ monthly requests
-- AWS S3 for scalable provider media storage (portfolios, images, videos)
-- PostgreSQL schema optimized for complex queries across 10,000+ listings
-- Real-time booking, ranking, review system and provider matching
+High-performance Kenyan marketplace backend connecting clients, service providers, and businesses — built in Rust for maximum throughput with a 23-table PostgreSQL schema and 30+ REST endpoints.
 
-`Rust` `Actix Web` `PostgreSQL 15` `AWS S3` `Docker` `JWT`
+- **<300ms p95 latency** · 20K+ monthly requests · compile-time-verified SQLx queries
+- **M-Pesa Daraja STK Push** payments with automatic booking confirmation and wallet crediting; Africa's Talking SMS for booking and payment alerts
+- **Real-time WebSocket** messaging and in-app notification system using Axum's built-in WS + tokio broadcast channels
+- **PostgreSQL full-text search + haversine geo-proximity** supporting 10,000+ provider listings with optimised indexing
+- Provider analytics dashboard (revenue, bookings over time, top services, repeat client rate), wallet & payout flows, and verified reviews gated behind completed bookings
+- Service package bundling · weekly availability scheduling · favourites with real-time post alerts
+- Manual AWS S3 v4 request signing — no SDK required · switchable local/S3 storage backend via env var
+- tower-governor rate limiting (5 req/min on auth, 100 req/min global) · Argon2 password hashing
+- 35% reduction in operational costs via caching and rate limiting · 12 incremental SQL migrations auto-applied at startup
+
+`Rust` `Axum` `PostgreSQL` `SQLx` `AWS S3` `WebSockets` `M-Pesa Daraja` `Africa's Talking` `Docker` `JWT` `Argon2` `Tokio`
 
 📖 [GitHub](https://github.com/Kamausimon/mtaalink)
 
 ---
 
-### [🏪 Multi-Tenant Inventory SaaS](https://github.com/Kamausimon) — Node.js · MongoDB
-Multi-tenant SaaS inventory platform with full tenant isolation and role-based access
+### [🏪 Multi-Tenant Inventory SaaS](https://github.com/Kamausimon/MTIS) — Node.js · MongoDB
+
+Multi-tenant SaaS inventory platform with full tenant isolation and role-based access control.
 
 - **50+ business tenants** with 100% data isolation
 - RBAC managing **150+ users** with granular permissions
-- Dashboard load time reduced **50%** via MongoDB aggregation pipeline optimization
+- Dashboard load time reduced **50%** via MongoDB aggregation pipeline optimisation
 - CI/CD pipeline with automated rollback on Railway
 
 `Node.js` `MongoDB` `Redis` `Docker` `GitHub Actions` `JWT`
 
 📖 [GitHub](https://github.com/Kamausimon/MTIS)
+
 ---
 
 ## 🛠️ Tech Stack
@@ -73,12 +91,17 @@ Multi-tenant SaaS inventory platform with full tenant isolation and role-based a
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+**Messaging & Event-Driven**
+
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka)
+![Amazon SNS](https://img.shields.io/badge/Amazon%20SNS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Amazon SQS](https://img.shields.io/badge/Amazon%20SQS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 **Cloud & DevOps**
 
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
@@ -110,8 +133,8 @@ Multi-tenant SaaS inventory platform with full tenant isolation and role-based a
 
 ## 🎯 Currently
 
-- ☁️ **Certified:** AWS Solutions Architect Associate (SAA-C03) — 2025
-- 📚 **Learning:** Kubernetes · Terraform · AWS Certified DevOps Engineer - Professional
+- ☁️ **Certified:** AWS Solutions Architect Associate (SAA-C03) — 2026
+- 📚 **Learning:** Kubernetes · Terraform · AWS Certified DevOps Engineer – Professional
 - 💼 **Open to:** Backend Engineer, Cloud Engineer, or Solutions Architect roles
 - 🌍 **Location:** Nairobi, Kenya · Remote-friendly
 
