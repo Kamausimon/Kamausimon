@@ -41,7 +41,7 @@ Production-grade event ticketing platform built and **deliberately rebuilt three
 
 ---
 
-### [🦀 MtaaLink — Service Provider Marketplace](https://github.com/Kamausimon/mtaalink) — Rust · Axum · PostgreSQL · AWS
+### [🦀 Sokavi — Service Provider Marketplace](https://github.com/Kamausimon/mtaalink) — Rust · Axum · PostgreSQL · AWS
 
 High-performance Kenyan marketplace backend connecting clients, service providers, and businesses — built in Rust for maximum throughput with a 23-table PostgreSQL schema and 30+ REST endpoints.
 
@@ -57,7 +57,7 @@ High-performance Kenyan marketplace backend connecting clients, service provider
 
 `Rust` `Axum` `PostgreSQL` `SQLx` `AWS S3` `WebSockets` `M-Pesa Daraja` `Africa's Talking` `Docker` `JWT` `Argon2` `Tokio`
 
-📖 [GitHub](https://github.com/Kamausimon/mtaalink)
+📖 [GitHub](https://github.com/Kamausimon/sokavi) | 🔗 [Live Version](https://sokavi.vercel.app/)verc
 
 ---
 
