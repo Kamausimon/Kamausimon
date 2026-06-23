@@ -12,9 +12,7 @@ I build cloud-native backend systems that handle real money and real users at sc
 
 [![wakatime](https://wakatime.com/badge/user/018c5a56-9679-4410-abca-5b63505115e4.svg)](https://wakatime.com/@018c5a56-9679-4410-abca-5b63505115e4)
 ---
-<p align="center">
-  <img src="https://api.boot.dev/v1/users/public/fc4e964f-65a7-4439-99bb-55019dcf29b9/thumbnail" >
-</p>
+
 
 ## 🚀 Featured Projects
 
@@ -132,6 +130,9 @@ Multi-tenant SaaS inventory platform with full tenant isolation and role-based a
 </div>
 
 ---
+<p align="center">
+  <img src="https://api.boot.dev/v1/users/public/fc4e964f-65a7-4439-99bb-55019dcf29b9/thumbnail" >
+</p>
 
 ## 🎯 Currently
 
